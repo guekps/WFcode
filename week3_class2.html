@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cards Page</title>
+
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Roboto');
+		body{
+			font-family: Roboto;
+			margin:0px;
+			#padding: 0px;
+			#position: relative;
+			top: 50px;
+
+		}
+		.tnavbar{
+			position:fixed;
+			margin:0px;
+			padding: 10px;
+			width: 100%;
+			height: 30px;
+			background-color: black;
+			color: white;
+			font-size: 20px;
+		}
+		.tnavbar img{
+			position: fixed;
+			right: 0px;
+			top: 0px;
+			height: 30px;
+			margin:10px;
+		}
+		.card { 
+			position: relative;
+			top: 60px;
+
+			display:inline-block;
+			vertical-align: top;
+			margin-top: 20px;
+			margin-left: 5px;
+			margin-right: 5px;
+			margin-bottom: 20px;
+			padding: 10px;
+			border: 1px solid #AAFFEE;
+			border-radius: 4px;
+			width: 25vw;
+		 }
+		 .card.picture-card img{
+		 	width: 100%;
+		 	border-radius: 4px;
+		 }
+		  .card.picture-card h4{
+		 	margin-bottom: 4px;
+		 }
+		.card.code-card { white-space: pre; }
+		.card.code-card code{
+			display: block;
+			padding: 10px 20px;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: #C8C8C8;
+			overflow: scroll; 
+		}
+		@media (max-width: 640px) {
+			.card{
+				width: 50%;
+			}
+		}
+	</style>
+</head>
+<body>
+<div class="tnavbar">
+			Guek Peng Siong
+		<img size="10%" src="WM_newGPS3a.png">
+</div>
+<div class="card picture-card">
+	<img src="https://guek.net/gpsweb/wp-content/gallery/astrophotography/GPS_5353T.jpg" />
+	<h4>Random Picture
+	</h4>
+</div>
+<div class="card picture-card">
+	<img src="https://guek.net/gpsweb/wp-content/gallery/astrophotography/GPS_4655_a.jpg" />
+	<h4>Random Picture
+	</h4>
+</div>
+<div class="card picture-card">
+	<img src="https://guek.net/gpsweb/wp-content/gallery/astrophotography/DSC02486.jpg" />
+	<h4>Random Picture
+	</h4>
+</div>
+<div class="card code-card">
+<code>
+	#wife{
+	right: 100%;
+	margin: 0;
+}
+</code>	
+</div>
+
+<div class="card code-card">
+	<code>
+		#fear{
+		display: none;
+	}
+	</code>
+</div>
+
+<div class="card code-card">
+	<code>
+		#bruce-banner{
+		color: pink;
+		transition: color 10s;
+	}
+	</code>
+</div>
+
+</body>
+</html>

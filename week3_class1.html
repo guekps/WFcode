@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cards Page</title>
+
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Roboto');
+		body{
+			font-family: Roboto;
+		}
+		.card { 
+			display:inline-block;
+			vertical-align: top;
+			margin-top: 20px;
+			margin-left: 5px;
+			margin-right: 5px;
+			margin-bottom: 20px;
+			padding: 10px;
+			border: 1px solid #AAFFEE;
+			border-radius: 4px;
+			width: 25vw;
+		 }
+		 .card.picture-card img{
+		 	width: 100%;
+		 	border-radius: 4px;
+		 }
+		  .card.picture-card h4{
+		 	margin-bottom: 4px;
+		 }
+		.card.code-card { white-space: pre; }
+		.card.code-card code{
+			display: block;
+			padding: 10px 20px;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: #C8C8C8;
+			overflow: scroll; 
+		}
+		@media (max-width: 640px) {
+			.card{
+				width: 50%;
+			}
+		}
+	</style>
+</head>
+<body>
+
+<div class="card picture-card">
+	<img src="https://loremflickr.com/320/240" />
+	<h4>Random Picture
+	</h4>
+</div>
+<div class="card picture-card">
+	<img src="https://loremflickr.com/320/241" />
+	<h4>Random Picture
+	</h4>
+</div>
+<div class="card picture-card">
+	<img src="https://loremflickr.com/320/242" />
+	<h4>Random Picture
+	</h4>
+</div>
+<div class="card code-card">
+<code>
+	#wife{
+	right: 100%;
+	margin: 0;
+}
+</code>	
+</div>
+
+<div class="card code-card">
+	<code>
+		#fear{
+		display: none;
+	}
+	</code>
+</div>
+
+<div class="card code-card">
+	<code>
+		#bruce-banner{
+		color: pink;
+		transition: color 10s;
+	}
+	</code>
+</div>
+
+</body>
+</html>
